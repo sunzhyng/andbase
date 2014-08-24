@@ -3,5 +3,8 @@
 
     <string name="app_name">Andbase</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_app_splash">AppSplash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
