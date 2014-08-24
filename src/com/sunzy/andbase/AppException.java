@@ -160,7 +160,7 @@ public class AppException extends Exception implements UncaughtExceptionHandler 
 	}
 
 	private String getCrashReport(Context context, Throwable ex) {
-		PackageInfo pinfo = ((AppContext) context.getApplicationContext()).getPackageInfo();
+		PackageInfo pinfo = ((AppEx) context.getApplicationContext()).getPackageInfo();
 		StringBuffer exceptionStr = new StringBuffer();
 		exceptionStr.append("Version: " + pinfo.versionName + "(" + pinfo.versionCode + ")\n");
 		exceptionStr.append("Android: " + android.os.Build.VERSION.RELEASE + "(" + android.os.Build.MODEL + ")\n");

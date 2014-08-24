@@ -9,7 +9,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-public class AppContext extends Application {
+public class AppEx extends Application {
 
 	public static final int NETTYPE_NO = 0x00;
 	public static final int NETTYPE_WIFI = 0x01;

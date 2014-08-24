@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 
-		AppContext ac = (AppContext) getApplication();
+		AppEx ac = (AppEx) getApplication();
 		int nt = ac.getNetworkType();
 		TextView txt = (TextView) findViewById(R.id.text_nettype);
 		txt.setText(nt + "");
