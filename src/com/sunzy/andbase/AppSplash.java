@@ -13,9 +13,10 @@ public class AppSplash extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		final View view = View.inflate(this, R.layout.activity_app_splash, null);
+		// layout not immediately display
+		View view = View.inflate(this, R.layout.activity_app_splash, null);
 		setContentView(view);
-				
+
 		AlphaAnimation aa = new AlphaAnimation(0.3f,1.0f);
 		aa.setDuration(1000);
 		view.startAnimation(aa);
